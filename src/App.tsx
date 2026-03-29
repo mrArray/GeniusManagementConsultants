@@ -17,7 +17,7 @@ import {
 // ─── Data ────────────────────────────────────────────────────────────────────
 
 const expertiseAreas = [
-  { icon: Calculator,  title: 'Tax Planning & Compliance', count: '15+ Years' },
+  { icon: Calculator,  title: 'Tax Planning & Compliance', count: '18+ Years' },
   { icon: TrendingUp,  title: 'Revenue Optimization',      count: 'Expert Level' },
   { icon: Briefcase,   title: 'Financial Auditing',         count: 'IPSAS & IFRS' },
   { icon: Lightbulb,   title: 'Business Advisory',          count: 'SME Focused' },
@@ -144,7 +144,7 @@ const teamMembers = [
   {
     name: 'Jamilu Salisu Ahmad',
     role: 'Managing Partner - Public Sector',
-    qualifications: 'B.Sc, MBA, M.Sc, PhD. MNIM, CNA, CPA, ACA',
+    qualifications: 'Bsc, MBA, MSc, PhD. MNIM, CNA, CPA, ACA',
     experience:
       'Over 18 years of experience in public and private sectors, specializing in accounting and auditing standards (IPSAS and IFRS).',
     specialization: 'Public sector accounting, IPSAS implementation, capacity building',
@@ -256,7 +256,7 @@ export default function App() {
               <p className="text-lg text-muted-foreground max-w-xl">
                 Genius Management Consultants delivers specialized tax planning, revenue optimization, and
                 comprehensive financial services backed by chartered accountants and certified tax practitioners
-                with over 15 years of combined expertise.
+                with over 18 years of combined expertise.
               </p>
 
               {/* Credential badges */}
@@ -289,7 +289,7 @@ export default function App() {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
                 {[
-                  { value: '15+', label: 'Years Experience' },
+                  { value: '18+', label: 'Years Experience' },
                   { value: '3',   label: 'Expert Partners' },
                   { value: '7',   label: 'Service Areas' },
                 ].map((stat) => (
@@ -570,7 +570,6 @@ export default function App() {
                     <p className="font-semibold mb-1">Phone Numbers</p>
                     <div className="text-muted-foreground space-y-1">
                       <p>+234 803 6363 9797</p>
-                      <p>+234 802 3565 137</p>
                     </div>
                   </div>
                 </div>
